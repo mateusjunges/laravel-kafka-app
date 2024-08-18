@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\KafkaController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'produce');
+
+Route::get('/produce', KafkaController::class)->name('kafka.producer');
