@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2560bfbc1234e5a63d5204dcd8f73c30",
+    "content-hash": "b6d543d350b04a2e105a6da6d1fe111c",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -2127,16 +2127,16 @@
         },
         {
             "name": "mateusjunges/laravel-kafka",
-            "version": "v2.1.4",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mateusjunges/laravel-kafka.git",
-                "reference": "5fe17bb20fc4ac5b2e275bfc9926cb5f29ac735b"
+                "reference": "d15752b976e928453fa08472f86ca131c559552c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mateusjunges/laravel-kafka/zipball/5fe17bb20fc4ac5b2e275bfc9926cb5f29ac735b",
-                "reference": "5fe17bb20fc4ac5b2e275bfc9926cb5f29ac735b",
+                "url": "https://api.github.com/repos/mateusjunges/laravel-kafka/zipball/d15752b976e928453fa08472f86ca131c559552c",
+                "reference": "d15752b976e928453fa08472f86ca131c559552c",
                 "shasum": ""
             },
             "require": {
@@ -2185,7 +2185,7 @@
             "description": "A kafka driver for laravel",
             "support": {
                 "issues": "https://github.com/mateusjunges/laravel-kafka/issues",
-                "source": "https://github.com/mateusjunges/laravel-kafka/tree/v2.1.4"
+                "source": "https://github.com/mateusjunges/laravel-kafka/tree/v2.2.0"
             },
             "funding": [
                 {
@@ -2193,7 +2193,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-05T04:07:59+00:00"
+            "time": "2024-08-18T03:20:01+00:00"
         },
         {
             "name": "monolog/monolog",
