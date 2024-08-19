@@ -4,15 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Junges\Kafka\Facades\Kafka;
+use Junges\Kafka\Message\Message;
 
 final class KafkaController
 {
     public function __invoke(): JsonResponse
     {
-        Kafka::publish('localhost:9092')
+        Kafka::publish('kafka:9092')
             ->onTopic('my_messages')
-            ->withBodyKey('foo', 'bar')
-            ->withBodyKey('source', 'http request')
+            ->withMessage((new Message(partition: -1)))
             ->send();
 
         return response()->json('ok');

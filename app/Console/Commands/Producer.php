@@ -15,7 +15,7 @@ final class Producer extends Command
 
     public function handle(): int
     {
-        Kafka::publish('localhost:9092')
+        Kafka::publish('kafka:9092')
             ->onTopic('my_messages')
             ->withBodyKey('foo', 'bar')
             ->withBodyKey('source', 'http request')
